@@ -325,10 +325,13 @@ h1,h2,h3 {
 }
 
 .text_skills {
+    display: block;
     color: #828282;
     font-size: 14px;
     line-height: 19.07px;
     font-weight: 700;
+    text-align: center;
+    margin: auto;
 
 }
 
@@ -394,6 +397,10 @@ hr {
 
 .mr_36 {
     margin-right: 36px;
+}
+
+.mb_16 {
+    margin-bottom: 16px;
 }
 
 .mb_100 {
