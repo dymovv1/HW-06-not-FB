@@ -458,10 +458,6 @@ hr {
 
 /*=====#HEADER=====*/
 
-
-
-
-
 /*=====MAIN=====*/
 
 /*=====section ABOUT=====*/
@@ -497,6 +493,15 @@ hr {
     margin-right: 5px;
 }
 
+.star_active:hover {
+    background-image: url(../img/star_gray.svg);
+}
+
+.star_active:active {
+    background-image: url(../img/star_black.svg);
+}
+
+
 .block_stars {
     display: inline-block;
     max-width: 170px;
@@ -519,7 +524,7 @@ hr {
     margin-right: 5px;
 }
 
-.last_star {
+.mb_0 {
     margin: 0%;
 }
 
@@ -527,8 +532,8 @@ hr {
     background-image: url(../img/star_black.svg);
 }
 
-.section_cards {
-    display: block;
+.block_list:nth-child(4) {
+    margin: 0%;
 }
 
 /*=====section#CARDS=====*/
