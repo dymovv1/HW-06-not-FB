@@ -331,8 +331,16 @@ h1,h2,h3 {
     line-height: 19.07px;
     font-weight: 700;
     text-align: center;
-    margin: auto;
+    /* margin: auto; */
+    max-width: 95px;
+    margin-right: 45.5px;
+    margin-left: 45.5px;
+}
 
+.block_list {
+    display: inline-block;
+    max-width: 170px;
+    margin: auto;
 }
 
 img  {
@@ -389,6 +397,10 @@ hr {
 
 .mb_40 {
     margin-bottom: 40px;
+}
+
+.mb_25 {
+    margin-bottom: 25px;
 }
 
 .mb_46 {
@@ -476,6 +488,14 @@ hr {
 
 /*=====section CARDS=====*/
 
+.list_icons {
+    margin-right: 45.5px;
+    margin-left: 45.5px;
+}
+
+.star_active {
+    background-image: url(../img/star_black.svg);
+}
 
 
 
