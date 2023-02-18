@@ -347,14 +347,6 @@ a {
     color: #070707;
 }
 
-.btn {
-    display: inline-block;
-    min-width: 180px;
-    background: #070707;
-    min-height: 44px;
-    border-radius: 22px;
-    color: #FFFFFF;
-}
 
 hr {
     color: #828282;
@@ -476,7 +468,6 @@ hr {
 
 /*=====section ABOUT=====*/
 
-
 .text:nth-of-type(1) {
     max-width: 480px;
 }
@@ -582,17 +573,67 @@ hr {
     margin-bottom: 70px;
 }
 
-
-
-
-
-
 /*=====section#PORTFOLIO=====*/
-
-
-
-
 
 /*=====#MAIN=====*/
 
 
+
+/*=====FOOTER=====*/
+
+
+.footer-contacts {
+    padding-top: 100px;
+
+}
+
+.footer-contacts_text {
+    max-width: 280px;
+    font-weight: 400px;
+    line-height: 24.51px;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 60px;
+
+}
+
+.footer-contacts_title {
+    margin-bottom: 14px;
+
+}
+
+.footer-batton {
+    text-align: center;
+}
+
+.footer-botton_btn {
+    display: inline-block;
+    min-width: 180px;
+    background: #070707;
+    line-height: 24.51px;
+    letter-spacing: 2px;
+    padding: 10px 16px;
+    border-radius: 22px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.footer-social_icon {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.footer-social_icon:nth-child(4) {
+    margin: 0px;
+}
+
+.footer-social {
+    font-size: 0%;
+    text-align: center;
+}
+
+/*=====#FOOTER=====*/
