@@ -624,6 +624,14 @@ hr {
     color: #FFFFFF;
 }
 
+.footer-botton_btn:hover {
+    border: 2px solid #070707;
+    color: #070707;
+    background-color: white;
+    transition: 0.2s;
+    max-height: 44px;
+}
+
 .footer-social_icon {
     display: inline-block;
     margin-right: 50px;
@@ -642,8 +650,10 @@ hr {
     font-weight: 400;
     font-size: 14px;
     color: #828282;
-    
+}
 
+.footer-social_links:hover {
+    color: #070707;
 }
 
 .footer-social_items {
