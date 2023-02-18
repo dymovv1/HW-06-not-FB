@@ -433,6 +433,10 @@ hr {
     padding-bottom: 100px;
 }
 
+.mb_70 {
+    margin-bottom: 70px;
+}
+
 .mr_auto {
     margin: auto;
 }
@@ -563,6 +567,7 @@ hr {
 
 .section_portfolio {
     padding-top: 100px;
+    padding-bottom: 30px;
 }
 
 .section-second_title {
@@ -574,7 +579,9 @@ hr {
     color: #070707;
     margin: auto;
     text-decoration: underline 1px;
+    margin-bottom: 70px;
 }
+
 
 
 
